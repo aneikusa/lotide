@@ -5,14 +5,7 @@
 // it will only count those, ignoring the others.
 // Items in our case will be limited to Strings.
 
-const assertEqual = function(actual, expected) {
-  actual === expected;
-  if (actual === expected) {
-    console.log(`😁😁😁 Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`📛📛📛 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+const assertEqual = require('./assertEqual')
 
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count

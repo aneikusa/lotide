@@ -35,3 +35,5 @@ const test2 = findKey({
 
 assertEqual(test, "noma"); // PASS
 assertEqual(test2, "MF DOOM"); // FAIL
+
+module.exports = findKey

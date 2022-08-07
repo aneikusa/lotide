@@ -31,3 +31,5 @@ const assertObjectsEqual = function(object1, object2) {
 };
 
 assertObjectsEqual({ a: { y: {c:2}, z: 1 }, b: 2 }, { a: { y:{c:2}, z: 1 }, b: 2 }); //=>true
+
+module.exports = assertObjectsEqual;
